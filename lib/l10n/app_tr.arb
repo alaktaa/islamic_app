@@ -1,0 +1,56 @@
+{
+  "@@locale": "tr",
+  "dailyDua": "Günlük Dua",
+  "tagline": "Her gün Allah'ı hatırla",
+  "todaysDua": "Bugünün Duası",
+  "share": "Paylaş",
+  "language": "Dil",
+  "selectLanguage": "Dil seçin",
+  "english": "İngilizce",
+  "turkish": "Türkçe",
+  "browseDuas": "Dualara Göz At",
+  "randomDua": "Rastgele Dua",
+  "footerText": "Gününüz bereketli geçsin.",
+  "shareThisDua": "Bu duayı paylaş",
+  "getAnotherDua": "Başka bir dua getir",
+
+  "@dailyDua": {
+    "description": "Ana ekranda gösterilen uygulama başlığı."
+  },
+  "@tagline": {
+    "description": "Başlığın altında gösterilen kısa mesaj."
+  },
+  "@todaysDua": {
+    "description": "Günlük duayı gösteren uygulama başlığı."
+  },
+  "@share": {
+    "description": "Paylaş düğmesi etiketi."
+  },
+  "@language": {
+    "description": "Dil menüsü etiketi."
+  },
+  "@selectLanguage": {
+    "description": "Dil seçimi istemi."
+  },
+  "@english": {
+    "description": "İngilizce dil seçeneği."
+  },
+  "@turkish": {
+    "description": "Türkçe dil seçeneği."
+  },
+  "@browseDuas": {
+    "description": "Tüm dualara göz at butonu metni."
+  },
+  "@randomDua": {
+    "description": "Rastgele dua göster butonu metni."
+  },
+  "@footerText": {
+    "description": "Ekranın alt kısmında gösterilen yazı."
+  },
+  "@shareThisDua": {
+    "description": "Mevcut duayı paylaş düğmesi etiketi."
+  },
+  "@getAnotherDua": {
+    "description": "Başka rastgele dua gösteren düğme etiketi."
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "@@locale": "en",
+  "dailyDua": "Daily Du'a",
+  "tagline": "Remember Allah every day",
+  "todaysDua": "Today's Du'a",
+  "share": "Share",
+  "language": "Language",
+  "selectLanguage": "Select a language",
+  "english": "English",
+  "turkish": "Turkish",
+  "browseDuas": "Browse Du'as",
+  "randomDua": "Random Du'a",
+  "footerText": "May your day be full of Barakah.",
+  "shareThisDua": "Share this Du'a",
+  "getAnotherDua": "Get another Du'a",
+
+  "@dailyDua": {
+    "description": "The title of the app shown on the home screen."
+  },
+  "@tagline": {
+    "description": "A short message shown below the title."
+  },
+  "@todaysDua": {
+    "description": "App bar title showing the current day's Du'a."
+  },
+  "@share": {
+    "description": "The label for the share button."
+  },
+  "@language": {
+    "description": "The label for the language menu."
+  },
+  "@selectLanguage": {
+    "description": "Prompt to select a language."
+  },
+  "@english": {
+    "description": "Language option for English."
+  },
+  "@turkish": {
+    "description": "Language option for Turkish."
+  },
+  "@browseDuas": {
+    "description": "Button text to browse all Du'as."
+  },
+  "@randomDua": {
+    "description": "Button text to display a random Du'a."
+  },
+  "@footerText": {
+    "description": "Footer text shown at the bottom of the screen."
+  },
+  "@shareThisDua": {
+    "description": "Label for the button that shares the current Du'a."
+  },
+  "@getAnotherDua": {
+    "description": "Label for the button that gets another random Du'a."
+  }
+}
