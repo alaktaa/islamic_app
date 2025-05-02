@@ -1,18 +1,19 @@
 name: quick_app
 description: "A new Flutter project."
-publish_to: 'none'
+publish_to: 'none' # This prevents publishing to pub.dev
 version: 1.0.0+1
 
 environment:
   sdk: ^3.7.2
 
 dependencies:
-  flutter_launcher_icons: ^0.14.3
-  shared_preferences: ^2.2.2
+  flutter_quran: ^0.0.2
   flutter:
     sdk: flutter
   cupertino_icons: ^1.0.8
+  http: ^0.13.6
   share_plus: ^11.0.0
+  shared_preferences: ^2.2.2
   flutter_localizations:
     sdk: flutter
 
@@ -20,17 +21,29 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^5.0.0
+  flutter_launcher_icons: ^0.14.3
 
 flutter:
   uses-material-design: true
-  generate: true  # ✅ This stays to enable localization generation
+  generate: true  # Enables localization code generation
 
   assets:
     - assets/images/appBackground.png
+    - assets/languages/
+    - assets/quran/
+    - assets/duas/
+    - assets/quran.json
+    - assets/quran_api.json
 
 flutter_icons:
   android: true
   ios: true
   image_path: "assets/images/icon.png"
 
+fonts:
+  - family: KFGQPC
+  - family: Kitab
+    fonts:
+      - asset: assets/fonts/KFGQPC-Uthman-Taha-Naskh.ttf
+      - asset: assets/fonts/Kitab-Regular.ttf
 

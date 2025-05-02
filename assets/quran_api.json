@@ -1,0 +1,40 @@
+import 'dart:convert';
+import 'package:http/http.dart' as http;
+
+// Quran Surah model
+class Surah {
+  final int number;
+  final String name;
+  final String englishName;
+  final int ayahCount;
+
+  Surah({
+    required this.number,
+    required this.name,
+    required this.englishName,
+    required this.ayahCount,
+  });
+
+  factory Surah.fromJson(Map<String, dynamic> json) {
+    return Surah(
+      number: json['number'],
+      name: json['name'],
+      englishName: json['englishName'],
+      ayahCount: json['numberOfAyahs'],
+    );
+  }
+}
+
+// Fetch all Surahs
+Future<List<Surah>> fetchSurahs() async {
+  final url = Uri.parse('https://api.alquran.cloud/v1/surah');
+  final response = await http.get(url);
+
+  if (response.statusCode == 200) {
+    final data = json.decode(response.body);
+    final surahs = data['data'] as List;
+    return surahs.map((json) => Surah.fromJson(json)).toList();
+  } else {
+    throw Exception('Failed to load Surahs');
+  }
+}
