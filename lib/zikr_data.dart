@@ -1,16 +1,8 @@
-class ZikrItem {
-  final String arabic;
-  final String reference;
-  final int repeat;
-  final String explanation;
+// lib/zikr_data.dart
 
-  ZikrItem({
-    required this.arabic,
-    required this.reference,
-    required this.repeat,
-    required this.explanation,
-  });
-}
+import 'package:quick_app/zikr_item.dart';
+
+
 
 final List<ZikrItem> morningZikr = [
   ZikrItem(
@@ -19,18 +11,7 @@ final List<ZikrItem> morningZikr = [
     repeat: 1,
     explanation: 'If one recites it in the morning and dies before evening, he will enter Paradise.',
   ),
-  ZikrItem(
-    arabic: 'رَضيـتُ بِاللهِ رَبَّـاً، وَبِالإسْلامِ ديـناً ...',
-    reference: 'Abu Dawood 5072',
-    repeat: 3,
-    explanation: 'Whoever says this three times in the morning will be pleased on the Day of Judgment.',
-  ),
-  ZikrItem(
-    arabic: 'اللّهـمَّ ما أَصْبَـحَ بي مِـن نِّعْـمَةٍ ...',
-    reference: 'Abu Dawood 5073',
-    repeat: 1,
-    explanation: 'Acknowledges Allah’s blessings and shows gratitude.',
-  ),
+  // Add more morning Zikr items here
 ];
 
 final List<ZikrItem> eveningZikr = [
@@ -40,12 +21,7 @@ final List<ZikrItem> eveningZikr = [
     repeat: 1,
     explanation: 'Affirms that evening and morning are by the will of Allah.',
   ),
-  ZikrItem(
-    arabic: 'اللَّهُمَّ إِنِّي أَمْسَيْتُ أُشْهِدُكَ ...',
-    reference: 'Ahmad 17808',
-    repeat: 1,
-    explanation: 'Declares witness to Allah, His angels, and His books.',
-  ),
+  // Add more evening Zikr items here
 ];
 
 final List<ZikrItem> sleepZikr = [
@@ -55,10 +31,5 @@ final List<ZikrItem> sleepZikr = [
     repeat: 1,
     explanation: 'Surrendering the soul to Allah before sleep.',
   ),
-  ZikrItem(
-    arabic: 'اللّهُـمَّ قِنـي عَذابَـكَ يَـوْمَ تَـبْعَثُ عِبـادَك',
-    reference: 'Tirmidhi 3398',
-    repeat: 1,
-    explanation: 'Seeking protection from Hellfire before sleep.',
-  ),
+  // Add more sleep Zikr items here
 ];

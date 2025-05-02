@@ -1,5 +1,8 @@
+// lib/zikr_detail_screen.dart
+
 import 'package:flutter/material.dart';
-import 'zikr_data.dart';
+import 'package:quick_app/zikr_item.dart';
+
 
 class ZikrDetailScreen extends StatelessWidget {
   final String title;

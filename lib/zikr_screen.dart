@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:quick_app/zikr_item.dart';
 import 'zikr_data.dart';
 import 'zikr_detail_screen.dart';
 
